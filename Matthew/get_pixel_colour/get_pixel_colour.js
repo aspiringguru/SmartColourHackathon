@@ -85,3 +85,8 @@ document.addEventListener("click", function(e){
 });
 
 console.log("DEFAULT_COLORS:"+DEFAULT_COLORS)
+console.log(Object.keys(DEFAULT_COLORS));
+
+for (key in Object.keys(DEFAULT_COLORS)){
+  console.log("key:"+ key+", value:"+DEFAULT_COLORS[key])
+}

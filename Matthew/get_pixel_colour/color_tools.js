@@ -1,5 +1,5 @@
 function parseColor(source) {
-  console.log("parseColor(source), source = "+source)
+  console.log("function parseColor("+source+") called")
   var red, green, blue;
 
   if (typeof source === 'object') {
